@@ -1,0 +1,15 @@
+# this program will help you to convert total marks of any exam to percentage
+print("Welcome to the marks to percentage converter\n")
+print("you can enter marks of 7 subjects\n")
+print("each paper's marks will be 100")
+print("so let's get started...\n")
+sub1 = int(input("enter the marks of Subject 1: "))
+sub2 = int(input("enter the marks of Subject 2: "))
+sub3 = int(input("enter the marks of Subject 3: "))
+sub4 = int(input("enter the marks of Subject 4: "))
+sub5 = int(input("enter the marks of Subject 5: "))
+sub6 = int(input("enter the marks of Subject 6: "))
+sub7 = int(input("enter the marks of Subject 7: "))
+total_marks = sub1 + sub2 + sub3 + sub4 + sub5 + sub6 + sub7
+print("Your total marks is: ", total_marks)
+print("Your percentage is: ", total_marks/700*100)
